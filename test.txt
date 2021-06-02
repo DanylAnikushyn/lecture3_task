@@ -1,0 +1,13 @@
+Grigorii,Skovoroda,3.56348,5
+Taras,Shevchenko,4,5
+Hose,De San-Martin,4.9,9
+Amin,Britton,2.5,6
+Wilfred,Carpenter,4.1224,5
+Breanna,Hurst,3.74,10
+Bryn,Peralta,4.112312345,10
+Harris,Hurley,4.99,10
+Jace,Castaneda,3.5423,9
+Donovan,Fleming,1.932,8
+Spike,Mccallum,4.45,7
+Saffron,Morley,4.6723,4
+Lisa,Navarro,5,10
