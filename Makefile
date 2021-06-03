@@ -1,6 +1,6 @@
 CXX = g++
 TARGET = main
-OBJS = main.o table.o util.o 
+OBJS = main.o table.o parser.o student.o
 
 all: $(TARGET)
 
@@ -15,5 +15,8 @@ main.o: main.cpp
 
 clean: 
 	rm -rf $(TARGET) *.o 
+
+test: $(TARGET)
+	./$(TARGET) tests/test1.txt
 
 .PHONY: all clean
