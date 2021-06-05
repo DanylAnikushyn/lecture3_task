@@ -5,13 +5,13 @@ class Student
 {
 public:
     Student();
-    Student(std::string first_name, std::string last_name, double avg_mark, int attended);
+    Student(const std::string& first_name, const std::string& last_name, double avg_mark, int attended);
     void display(int fn_max_len, int ln_max_len) const;
 private:
-    std::string first_name;
-    std::string last_name;
-    double avg_mark;
-    int attended;
-    bool succeeded;
+    std::string m_first_name;
+    std::string m_last_name;
+    double m_avg_mark;
+    int m_attended;
+    bool m_succeeded;
 };
 #endif

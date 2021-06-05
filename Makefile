@@ -7,7 +7,7 @@ all: $(TARGET)
 $(TARGET): $(OBJS)
 	$(CXX) -o $@ $^
 
-main.o: main.cpp
+main.o: main.cpp table.h parser.h
 	$(CXX) -c $<
 
 %.o: %.cpp %.h
